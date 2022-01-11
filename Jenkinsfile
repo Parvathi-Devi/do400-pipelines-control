@@ -2,7 +2,7 @@
 node('nodejs') {
 stage('Checkout') {
                     git branch: 'main',
-                    url: 'https://github.com/ParvathiDevi/Do400-pipeline:'
+                    url: 'https://github.com/Parvathi-Devi/do400-pipelines-control'
 }
 stage('Backend Tests') {
 sh 'node ./backend/test.js'
